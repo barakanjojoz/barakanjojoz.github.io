@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="recursos/css/exercicio.css">
     <title>Exercício</title>
 </head>
+<?php error_reporting(E_ALL ^ E_WARNING);  ?>
 <body class="exercicio">
     <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
-        <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> 
+        <a href=<?= "/php/{$_GET['dir']}/{$_GET['file']}.php" ?> 
             class="verde">Sem formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
     </nav>
@@ -25,7 +26,7 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3R & ALUNOS © <?= date('Y'); ?>
+        COALA CORP © <?= date('Y'); ?>
     </footer>
 </body>
 </html>
