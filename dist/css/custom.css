@@ -26,12 +26,12 @@
   border-color: #e21e80;
 }
 
-#index #index-content .btn-outline-dark {
+#index #index-content .btn-secondary {
   background-color: #e21e80;
   border-color: #e21e80;
 }
 
-#index #index-content .btn-outline-dark:hover {
+#index #index-content .btn-secondary:hover {
   background-color: #2530ef;
   border-color: #2530ef;
 }
