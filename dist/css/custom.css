@@ -27,6 +27,7 @@
 }
 
 #index #index-content .btn-secondary {
+  color: white;
   background-color: #e21e80;
   border-color: #e21e80;
 }
