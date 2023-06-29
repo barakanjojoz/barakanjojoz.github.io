@@ -2,9 +2,11 @@
 
 #index{
     #index-content{
-        .fs-2{
-            font-weight: 400;
+        .badge{
+            font-weight: 500;
             font-family: 'Fira Mono', monospace;
+        }
+        .fs-2{
             font-size: 1.5rem !important;
         }
         .fs-3{
@@ -21,11 +23,11 @@
             background-color: #e21e80;
             border-color: #e21e80;
         }
-        .btn-outline{
+        .btn-outline-dark{
             background-color: #e21e80;
             border-color: #e21e80;
         }
-        .btn-outline:hover{
+        .btn-outline-dark:hover{
             background-color: #2530ef;
             border-color: #2530ef;
         }
