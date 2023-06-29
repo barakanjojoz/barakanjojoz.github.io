@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 
-body{
-    transition: 250ms;
-}
-
 #index{
     #index-content{
         .fs-3.text-muted{
@@ -17,6 +13,14 @@ body{
         .btn-primary:hover{
             background-color: #e21e80;
             border-color: #e21e80;
+        }
+        .btn-outline{
+            background-color: #e21e80;
+            border-color: #e21e80;
+        }
+        .btn-outline:hover{
+            background-color: #2530ef;
+            border-color: #2530ef;
         }
     }
 }
