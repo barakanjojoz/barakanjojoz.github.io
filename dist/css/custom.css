@@ -10,6 +10,8 @@ a {
 
 #index #header-content .fs-2 {
   font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  color: #5d5d5d;
 }
 
 #index #header-content .fs-3 {
