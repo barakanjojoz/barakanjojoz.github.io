@@ -34,9 +34,11 @@
         }
     }
     .profile {
-        text-align: center;
+        display: flex;
+        justify-content: center;
         .fa-code{
-            top: 25%;
+            height: fit-content;
+            align-self: center;
             color: white;
             font-size: 250px;
         }
