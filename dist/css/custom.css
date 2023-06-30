@@ -36,4 +36,14 @@
   background-color: #2530ef;
   border-color: #2530ef;
 }
+
+#index .profile {
+  text-align: center;
+}
+
+#index .profile .code {
+  top: 25%;
+  color: white;
+  font-size: 250px;
+}
 /*# sourceMappingURL=custom.css.map */
