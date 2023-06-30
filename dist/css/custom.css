@@ -56,4 +56,10 @@
   color: white;
   font-size: 350px;
 }
+
+#about .lead {
+  font-weight: 600 !important;
+  color: #5d5d5d;
+  margin-top: 1.25rem;
+}
 /*# sourceMappingURL=custom.css.map */
