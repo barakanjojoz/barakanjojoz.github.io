@@ -77,12 +77,17 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 30px 0;
 }
 
 #experience .experience-item .experience-date {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #828385;
+  text-transform: uppercase;
 }
 
 #experience .experience-item .experience-info {
