@@ -23,24 +23,24 @@ a {
 }
 
 #index #header-content .btn-primary {
-  background-color: #2530ef;
-  border-color: #2530ef;
+  background-color: #4e2cd7;
+  border-color: #4e2cd7;
 }
 
 #index #header-content .btn-primary:hover {
-  background-color: #1a208b;
-  border-color: #1a208b;
+  background-color: #4122bd;
+  border-color: #4122bd;
 }
 
 #index #header-content .btn-secondary {
   color: white;
-  background-color: #e21e80;
-  border-color: #e21e80;
+  background-color: #bb2297;
+  border-color: #bb2297;
 }
 
 #index #header-content .btn-secondary:hover {
-  background-color: #aa1660;
-  border-color: #aa1660;
+  background-color: #971679;
+  border-color: #971679;
 }
 
 #index .profile {
@@ -95,8 +95,11 @@ a {
 }
 
 #experience .experience-item .experience-info .experience-job {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 22px;
+  background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #experience .experience-item .experience-info .experience-job.before {
@@ -123,7 +126,7 @@ a {
 }
 
 #experience .experience-item .experience-info .experience-tools .experience-tool {
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
   color: white;
   padding: 4px 12px;
   border-radius: 8px;
