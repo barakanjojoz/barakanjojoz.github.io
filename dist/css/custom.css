@@ -68,4 +68,56 @@ a {
   color: #5d5d5d;
   margin-top: 1.25rem;
 }
+
+#experience .experience-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#experience .experience-item .experience-date {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+#experience .experience-item .experience-info {
+  text-align: left;
+}
+
+#experience .experience-item .experience-info .experience-job {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+#experience .experience-item .experience-info .experience-job.before {
+  font-weight: 400;
+  font-size: 18px;
+  color: #828385;
+}
+
+#experience .experience-item .experience-info .experience-description {
+  font-size: 16px;
+  text-align: justify;
+}
+
+#experience .experience-item .experience-info .experience-tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#experience .experience-item .experience-info .experience-tools .experience-tool {
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
 /*# sourceMappingURL=custom.css.map */
