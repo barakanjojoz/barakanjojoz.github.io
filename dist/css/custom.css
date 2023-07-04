@@ -112,6 +112,9 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  gap: 2px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #experience .experience-item .experience-info .experience-tools .experience-tool {
@@ -119,5 +122,15 @@ a {
   color: white;
   padding: 4px 12px;
   border-radius: 8px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  #experience .experience-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=custom.css.map */

@@ -84,13 +84,21 @@ a{
             .experience-tools{
                 display: flex;
                 justify-content: space-evenly;
+                gap: 2px;
+                flex-wrap: wrap;
                 .experience-tool{
                     background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
                     color: white;
                     padding: 4px 12px;
                     border-radius: 8px;
+                    font-size: 12px;
                 }
             }
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .experience-item{
+            flex-direction: column;
         }
     }
 }
