@@ -120,17 +120,18 @@ a{
                 flex: 100%;
                 .project-img{
                     width: 85%;
-                    border: 1px solid black;
+                    border: 3px solid #7229c3;
+                    box-shadow: 2px 2px 2px 0px #0000006e;
                     border-radius: 4px;
                     float: left;
-                    margin-right: 15px;
+                    margin-left: 15px;
                     position: relative;
                     transition: 250ms;
                 }
                 .project-img.mid{
                     float: right;
-                    margin-right: unset;
-                    margin: -15px 0px -15px 15px;
+                    margin-left: unset;
+                    margin: -15px 15px -15px 0px;
                     z-index: 1;
                 }
                 .project-img:hover{
