@@ -141,4 +141,57 @@ a {
             flex-direction: column;
   }
 }
+
+#projects .projects-list .projects-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+#projects .projects-list .projects-item .project-imgs .project-img {
+  width: 85%;
+  border: 1px solid black;
+  border-radius: 4px;
+  float: left;
+  margin-right: 15px;
+}
+
+#projects .projects-list .projects-item .project-imgs .project-img.mid {
+  float: right;
+  margin-right: unset;
+  margin-left: 15px;
+}
+
+#projects .projects-list .projects-item .project-title {
+  font-weight: 700;
+  font-size: 22px;
+  background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#projects .projects-list .projects-item .project-description {
+  text-align: justify;
+}
+
+#projects .projects-list .projects-item .experience-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#projects .projects-list .projects-item .experience-tags .experience-tag {
+  background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+}
 /*# sourceMappingURL=custom.css.map */
