@@ -147,6 +147,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
+  margin: 50px 0;
+  padding: 0 0 25px 0;
+  border-bottom: 1px solid #47474740;
+}
+
+#projects .projects-list .projects-item:last-child {
+  border-bottom: 0;
 }
 
 #projects .projects-list .projects-item .project-imgs {
@@ -177,8 +184,8 @@ a {
 
 #projects .projects-list .projects-item .project-imgs .project-img:hover {
   z-index: 2;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 #projects .projects-list .projects-item .project-info {
