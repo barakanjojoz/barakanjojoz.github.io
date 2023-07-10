@@ -161,7 +161,7 @@ a {
   -webkit-box-shadow: 2px 2px 2px 0px #0000006e;
           box-shadow: 2px 2px 2px 0px #0000006e;
   border-radius: 4px;
-  float: left;
+  float: right;
   margin-left: 15px;
   position: relative;
   -webkit-transition: 250ms;
@@ -169,7 +169,7 @@ a {
 }
 
 #projects .projects-list .projects-item .project-imgs .project-img.mid {
-  float: right;
+  float: left;
   margin-left: unset;
   margin: -15px 15px -15px 0px;
   z-index: 1;
