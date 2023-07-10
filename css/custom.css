@@ -149,6 +149,12 @@ a {
   gap: 40px;
 }
 
+#projects .projects-list .projects-item .project-imgs {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
 #projects .projects-list .projects-item .project-imgs .project-img {
   width: 85%;
   border: 1px solid black;
@@ -175,7 +181,7 @@ a {
   text-align: justify;
 }
 
-#projects .projects-list .projects-item .experience-tags {
+#projects .projects-list .projects-item .project-tags {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,7 +193,7 @@ a {
       flex-wrap: wrap;
 }
 
-#projects .projects-list .projects-item .experience-tags .experience-tag {
+#projects .projects-list .projects-item .project-tags .project-tag {
   background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
   color: white;
   padding: 4px 12px;
