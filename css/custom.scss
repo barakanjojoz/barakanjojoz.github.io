@@ -170,6 +170,9 @@ a{
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 margin: 0;
+                .bi::before, [class*=" bi-"]::before{
+                    font-weight: 900 !important;
+                }
             }
             .project-description{
                 text-align: justify;

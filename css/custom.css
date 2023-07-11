@@ -226,6 +226,10 @@ a {
   margin: 0;
 }
 
+#projects .projects-list .projects-item .project-title .bi::before, #projects .projects-list .projects-item .project-title [class*=" bi-"]::before {
+  font-weight: 900 !important;
+}
+
 #projects .projects-list .projects-item .project-description {
   text-align: justify;
 }
