@@ -210,20 +210,14 @@ a{
 }
 
 .display-5{
-    font-family: sans-serif;
-    margin: 10px auto;
-    color: #228B22;
-    text-align: center;
-    font-size: 30px;
-    max-width: 600px;
     position: relative;
     display: block;
     .text-gradient::before {
         content: "";
         display: block;
-        width: 150px;
-        height: 5px;
-        background: #CD5C5C;
+        width: 200px;
+        height: 2px;
+        background: #6a2ac830;
         left: 0;
         top: 50%;
         position: absolute;
@@ -231,11 +225,16 @@ a{
       .text-gradient::after {
         content: "";
         display: block;
-        width: 150px;
-        height: 5px;
-        background: #CD5C5C;
+        width: 200px;
+        height: 2px;
+        background: #6a2ac830;
         right: 0;
         top: 50%;
         position: absolute;
       }
+      @media screen and (max-width: 600px) {
+        .text-gradient::before, .text-gradient::after{
+            content: unset;
+        }
+    }
 }
