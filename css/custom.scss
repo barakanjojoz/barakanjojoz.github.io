@@ -192,6 +192,19 @@ a{
         }
         .projects-item.reverse{
             flex-direction: row-reverse;
+            .project-img{
+                float: left;
+                margin-right: 15px;
+            }
+            .project-img.mid{
+                float: left;
+                margin-left: unset;
+                margin: -15px 15px -15px 0px;
+
+                float: right;
+                margin-right: unset;
+                margin: -15px 0px -15px 15px;
+            }
         }
         .display-5{
             span:before {

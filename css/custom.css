@@ -261,6 +261,20 @@ a {
           flex-direction: row-reverse;
 }
 
+#projects .projects-list .projects-item.reverse .project-img {
+  float: left;
+  margin-right: 15px;
+}
+
+#projects .projects-list .projects-item.reverse .project-img.mid {
+  float: left;
+  margin-left: unset;
+  margin: -15px 15px -15px 0px;
+  float: right;
+  margin-right: unset;
+  margin: -15px 0px -15px 15px;
+}
+
 #projects .projects-list .display-5 span:before {
   content: "";
   display: block;
