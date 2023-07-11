@@ -217,20 +217,20 @@ a{
 .display-5::before {
     content: "";
     display: block;
-    width: 150px;
+    width: 130px;
     height: 5px;
-    background: #CD5C5C;
-    left: 85px;
+    background: #191970;
     top: 50%;
     position: absolute;
+    left: 0;
   }
   .display-5::after {
     content: "";
     display: block;
-    width: 150px;
+    width: 130px;
     height: 5px;
-    background: #CD5C5C;
-    right: 85px;
+    background: #191970;
     top: 50%;
     position: absolute;
+    right: 0;
   }
