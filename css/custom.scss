@@ -157,6 +157,10 @@ a{
                 a{
                     text-decoration: none;
                     text-align: left;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 12px;
                 }
             }
             .project-title{
@@ -165,6 +169,7 @@ a{
                 background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+                margin: 0;
             }
             .project-description{
                 text-align: justify;
@@ -186,7 +191,7 @@ a{
             }
         }
         .projects-item.reverse{
-            
+            flex-direction: row-reverse;
         }
     }
 }

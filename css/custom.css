@@ -207,6 +207,14 @@ a {
 #projects .projects-list .projects-item .project-info a {
   text-decoration: none;
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
 }
 
 #projects .projects-list .projects-item .project-title {
@@ -215,6 +223,7 @@ a {
   background: linear-gradient(135deg, #622acc 0%, #a624a3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
 #projects .projects-list .projects-item .project-description {
@@ -243,5 +252,12 @@ a {
   padding: 4px 12px;
   border-radius: 8px;
   font-size: 12px;
+}
+
+#projects .projects-list .projects-item.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 /*# sourceMappingURL=custom.css.map */
