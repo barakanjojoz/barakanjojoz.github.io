@@ -260,4 +260,26 @@ a {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
+
+#projects .projects-list .display-5 span:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background: #CD5C5C;
+  left: 85px;
+  top: 50%;
+  position: absolute;
+}
+
+#projects .projects-list .display-5 span:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background: #CD5C5C;
+  right: 85px;
+  top: 50%;
+  position: absolute;
+}
 /*# sourceMappingURL=custom.css.map */

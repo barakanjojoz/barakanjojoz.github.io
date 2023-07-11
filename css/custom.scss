@@ -193,5 +193,27 @@ a{
         .projects-item.reverse{
             flex-direction: row-reverse;
         }
+        .display-5{
+            span:before {
+                content: "";
+                display: block;
+                width: 150px;
+                height: 5px;
+                background: #CD5C5C;
+                left: 85px;
+                top: 50%;
+                position: absolute;
+              }
+              span:after {
+                content: "";
+                display: block;
+                width: 150px;
+                height: 5px;
+                background: #CD5C5C;
+                right: 85px;
+                top: 50%;
+                position: absolute;
+              }
+        }
     }
 }
