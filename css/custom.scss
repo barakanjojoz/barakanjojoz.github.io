@@ -161,6 +161,9 @@ a{
                     align-items: center;
                     gap: 8px;
                     margin-bottom: 12px;
+                    .bi::before, [class*=" bi-"]::before{
+                        font-weight: 900 !important;
+                    }
                 }
             }
             .project-title{
@@ -170,9 +173,6 @@ a{
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 margin: 0;
-                .bi::before, [class*=" bi-"]::before{
-                    font-weight: 900 !important;
-                }
             }
             .project-description{
                 text-align: justify;
@@ -218,7 +218,7 @@ a{
     .text-gradient::before {
         content: "";
         display: block;
-        width: 275px;
+        width: 240px;
         height: 2px;
         background: #6a2ac830;
         left: 0;
@@ -228,7 +228,7 @@ a{
       .text-gradient::after {
         content: "";
         display: block;
-        width: 275px;
+        width: 240px;
         height: 2px;
         background: #6a2ac830;
         right: 0;
