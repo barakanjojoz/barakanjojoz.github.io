@@ -206,28 +206,28 @@ a{
                 margin: -15px 0px -15px 15px;
             }
         }
-        .display-5{
-            background: black;
-            .text-gradient::before {
-                content: "";
-                display: block;
-                width: 150px;
-                height: 5px;
-                background: #CD5C5C;
-                left: 85px;
-                top: 50%;
-                position: absolute;
-              }
-              .text-gradient::after {
-                content: "";
-                display: block;
-                width: 150px;
-                height: 5px;
-                background: #CD5C5C;
-                right: 85px;
-                top: 50%;
-                position: absolute;
-              }
-        }
     }
+}
+
+.display-5{
+    .text-gradient::before {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        left: 85px;
+        top: 50%;
+        position: absolute;
+      }
+      .text-gradient::after {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        right: 85px;
+        top: 50%;
+        position: absolute;
+      }
 }

@@ -275,11 +275,7 @@ a {
   margin: -15px 0px -15px 15px;
 }
 
-#projects .projects-list .display-5 {
-  background: black;
-}
-
-#projects .projects-list .display-5 .text-gradient::before {
+.display-5 .text-gradient::before {
   content: "";
   display: block;
   width: 150px;
@@ -290,7 +286,7 @@ a {
   position: absolute;
 }
 
-#projects .projects-list .display-5 .text-gradient::after {
+.display-5 .text-gradient::after {
   content: "";
   display: block;
   width: 150px;
