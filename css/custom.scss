@@ -207,7 +207,7 @@ a{
             }
         }
         .display-5{
-            span:before {
+            span::before {
                 content: "";
                 display: block;
                 width: 150px;
@@ -217,7 +217,7 @@ a{
                 top: 50%;
                 position: absolute;
               }
-              span:after {
+              span::after {
                 content: "";
                 display: block;
                 width: 150px;

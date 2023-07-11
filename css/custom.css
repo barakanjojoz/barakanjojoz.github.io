@@ -275,7 +275,7 @@ a {
   margin: -15px 0px -15px 15px;
 }
 
-#projects .projects-list .display-5 span:before {
+#projects .projects-list .display-5 span::before {
   content: "";
   display: block;
   width: 150px;
@@ -286,7 +286,7 @@ a {
   position: absolute;
 }
 
-#projects .projects-list .display-5 span:after {
+#projects .projects-list .display-5 span::after {
   content: "";
   display: block;
   width: 150px;
