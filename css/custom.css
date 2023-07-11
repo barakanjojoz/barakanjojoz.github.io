@@ -276,10 +276,14 @@ a {
 }
 
 .display-5 {
-  background: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  position: relative;
 }
 
-.display-5 .text-gradient::before {
+.display-5::before {
   content: "";
   display: block;
   width: 150px;
@@ -290,7 +294,7 @@ a {
   position: absolute;
 }
 
-.display-5 .text-gradient::after {
+.display-5::after {
   content: "";
   display: block;
   width: 150px;
