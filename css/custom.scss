@@ -210,27 +210,32 @@ a{
 }
 
 .display-5{
-    width: fit-content;
-    margin: auto;
+    font-family: sans-serif;
+    margin: 10px auto;
+    color: #228B22;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
     position: relative;
+    display: block;
+    .text-gradient::before {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        left: 0;
+        top: 50%;
+        position: absolute;
+      }
+      .text-gradient::after {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        right: 0;
+        top: 50%;
+        position: absolute;
+      }
 }
-.display-5::before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 5px;
-    background: #191970;
-    top: 50%;
-    position: absolute;
-    left: 0;
-  }
-  .display-5::after {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 5px;
-    background: #191970;
-    top: 50%;
-    position: absolute;
-    right: 0;
-  }
